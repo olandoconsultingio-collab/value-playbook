@@ -11,3 +11,7 @@ Open `dist/index.html` in a browser, or serve the `dist` directory with any stat
 The site is a static build ready for Cloudflare Pages. Set the build output directory to `dist`; no build command is required.
 
 Planned custom domain: `value-playbook.olandomarle.com`.
+
+## Security
+
+Cloudflare Pages applies the security policy in `dist/_headers`, including a restrictive Content Security Policy, clickjacking protection, MIME-sniffing protection, referrer controls, and disabled access to unnecessary browser features.
